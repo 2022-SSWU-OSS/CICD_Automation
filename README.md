@@ -1,4 +1,4 @@
-# CICD_Automation
+# 🐋CICD_Automation
 
 Sungshin Women's University 2022-Fall Opensource Software Term Project😊
 
