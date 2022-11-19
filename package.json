@@ -1,0 +1,23 @@
+{
+  "name": "cicd_automation",
+  "version": "1.0.0",
+  "description": "Sungshin Women's University 2022-Fall Opensource Software Term Project😊",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/2022-SSWU-OSS/CICD_Automation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/2022-SSWU-OSS/CICD_Automation/issues"
+  },
+  "homepage": "https://github.com/2022-SSWU-OSS/CICD_Automation#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3"
+  }
+}
