@@ -5,7 +5,7 @@ node{
             url: 'https://github.com/2022-SSWU-OSS/CICD_Automation.git'
     }
     stage('Build image'){
-        app = docker.buld("jiun17/pipeline_example")
+        app = docker.build("jiun17/pipeline_example")
     }
     stage('Test image'){
         app.inside{
