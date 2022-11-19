@@ -1,7 +1,8 @@
 node{
     def app
     stage('Clone repository'){
-        git 'https://github.com/2022-SSWU-OSS/CICD_Automation.git'
+        git branch: 'main',
+            url: 'https://github.com/2022-SSWU-OSS/CICD_Automation.git'
     }
     stage('Build image'){
         app = docker.buld("jiun17/pipeline_example")
