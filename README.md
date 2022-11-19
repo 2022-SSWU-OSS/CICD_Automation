@@ -1,13 +1,23 @@
 # CICD_Automation
 
-성신여대 2022-2학기 오픈소스소프트웨어 텀프로젝트를 위한 레포입니다😊
+Sungshin Women's University 2022-Fall Opensource Software Term Project😊
 
-[🌐웹서비스 소개]
+## ✏️Commit Message Convention
+[Feat] : a new feature is introduced with the changes
+[Fix] : a bug fix has occurred
+[Chore] : changes that do not relate to a fix or feature and don't modify src or test files 
+[Refactor] : refactored code that neither fixes a bug nor adds a feature
+[Docs] : updates to documentation such as README or other markdown files
+[Design] : updates the UI design, such as CSS
+[Style] : changes that do not affect the meaning of the code, likely related to code formatting such as white-space, missing semi-colons, and so on
+[Ci] : continuous integration related 
+[Build] : changes that affect the build system or external dependencies
+[Revert] : reverts a previous commit
 
-Node.js와 Socket.io를 활용한 간단한 채팅 웹서비스입니다.
-(이번 프로젝트는 Docker, Jenkins, Kubernetes를 활용한 CI/CD Pipeline Automation을 구현하는 것이 주 목적이므로 웹서비스는 간단하게 구축하였습니다)
+## 🌐Service Introduction
+A simple online chatting service using Node.js and Socket.io
+(This project is for CI/CD Pipeline Automation by using Docker, Jenkins and Kubernetes)
 
-[💻Develpers]
-
-서지운🚀
-황현선🚀
+## 💻Develpers
+Seo jiun🚀
+Hwang Hyunsun🚀
