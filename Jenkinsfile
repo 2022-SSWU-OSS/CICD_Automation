@@ -9,7 +9,7 @@ node{
     }
     stage('Test image'){
         app.inside{
-            sh 'npm install && node app.js'
+            sh 'sudo apt install npm && npm install && node app.js'
         }
     }
     stage('Push image'){
