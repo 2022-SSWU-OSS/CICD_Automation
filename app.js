@@ -8,7 +8,7 @@ server.listen(3000, function () {
 // WARNING: app.listen(80) will NOT work here!
 
 app.get('/', function (req, res) {
-    res.sendFile(__dirname + '/client.html');
+    res.sendFile(__dirname + '/main.html');
 });
 
 io.on('connection', function (socket) {
