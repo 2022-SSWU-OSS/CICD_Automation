@@ -18,6 +18,6 @@ Sungshin Women's University 2022-Fall Opensource Software Term Project😊
 A simple online chatting service using Node.js and Socket.io  
 (This project's main goal is CI/CD Pipeline Automation by using Docker, Jenkins and Kubernetes)
 
-## 💻Develpers
+## 💻Developers
 Seo jiun🚀  
 Hwang Hyunsun🚀
