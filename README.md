@@ -12,7 +12,7 @@ Sungshin Women's University 2022-Fall Opensource Software Term Project😊
 [Design] : updates the UI design, such as CSS  
 [Style] : changes that do not affect the meaning of the code, likely related to code formatting such as white-space, missing semi-colons and so on  
 [CI] : continuous integration related  
-[CD] : continuous deployment related
+[CD] : continuous deployment related  
 [Build] : changes that affect the build system or external dependencies  
 [Revert] : reverts a previous commit  
   
