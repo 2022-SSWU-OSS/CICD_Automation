@@ -13,5 +13,5 @@ spec:
                 app: web
         spec:
             containers:
-            - name: jiun17
-              image: pipeline_example:latest
+            - name: example
+              image: jiun17/pipeline_example:latest
