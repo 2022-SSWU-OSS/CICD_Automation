@@ -6,11 +6,11 @@ spec:
     replicas: 2
     selector:
         matchLabels:
-        app: web
+            app: web
     template:
         metadata:
             labels:
-            app: web
+                app: web
         spec:
             containers:
             - name: jiun17
