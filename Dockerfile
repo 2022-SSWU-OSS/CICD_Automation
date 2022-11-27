@@ -1,8 +1,7 @@
-FROM ubuntu:20.04
-RUN apt-get update && apt-get -y install build-essential && mkdir -p /app
-COPY . /app/
-WORKDIR /app/
-CMD npm install
-CMD node app.js
-CMD ["npm", "start"]
+FROM node:12-alpine
+WORKDIR /app
+COPY package*.json ./
+RUN npm install --silent
+COPY . .
+CMD [ "npm", "start" ]
 EXPOSE 3000
