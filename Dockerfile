@@ -4,5 +4,5 @@ COPY . /app/
 WORKDIR /app/
 CMD npm install
 CMD node app.js
-CMD ["node", "app.js"]
+CMD ["npm", "start"]
 EXPOSE 3000
