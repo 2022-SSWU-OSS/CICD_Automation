@@ -3,18 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>SimpleChatting</title>
-    <style>
-        #text_box {
-        width: 620px;
-        height: 500px;
-        }
-        #name {
-        width: 100px;
-        }
-        #msg {
-        width: 350px;
-        }
-    </style>
+    <link rel="stylesheet" href="main.css"/>
 </head>
 
 <body>
@@ -26,7 +15,7 @@
             <div>   
                 name : <input id="name" type="text">
                 message : <input id="msg" type="text">
-                <input type="button" value="send" onclick="send()" />
+                <input type="button" id="btn" value="send" onclick="send()" />
             </div>
         </form>
     </div>
