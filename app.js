@@ -1,4 +1,5 @@
-var app = require('express')();
+var express = require('express');
+var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
@@ -16,3 +17,5 @@ io.on('connection', function (socket) {
         io.emit('client_receive', from +" : " + msg);
     });
 });
+
+app.use(express.static('public'));
