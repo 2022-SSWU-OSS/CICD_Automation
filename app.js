@@ -12,6 +12,11 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + '/main.html');
 });
 
+app.get('/name_input', function (req, res) {
+    console
+  res.sendFile(__dirname + '/name_input.html');
+});
+
 io.on('connection', function (socket) {
     socket.on('receive', function (from, msg) {
         io.emit('client_receive', from +" : " + msg);

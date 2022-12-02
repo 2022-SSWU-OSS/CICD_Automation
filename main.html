@@ -13,7 +13,7 @@
     <div>
         <form id="chating">
             <div>   
-                name : <input id="name" type="text">
+                name : <input id="name" type="text" onclick="openChild()">
                 message : <input id="msg" type="text">
                 <input type="button" id="btn" value="send" onclick="send()" />
             </div>
@@ -30,6 +30,12 @@
         socket.on('client_receive', function (msg) {
         document.getElementById("text_box").value += msg + "\n";
         });
+
+        function openChild() { 
+        var openWin;
+        openWin = window.open("/name_input",
+                "childForm", "width=600, height=300, resizable = no, scrollbars = no");    
+        }
     </script>
 </body>
 
