@@ -11,7 +11,8 @@ Sungshin Women's University 2022-Fall Opensource Software Term Project😊
 [Docs] : updates to documentation such as README or other markdown files  
 [Design] : updates the UI design, such as CSS  
 [Style] : changes that do not affect the meaning of the code, likely related to code formatting such as white-space, missing semi-colons and so on  
-[Ci] : continuous integration related  
+[CI] : continuous integration related  
+[CD] : continuous deployment related  
 [Build] : changes that affect the build system or external dependencies  
 [Revert] : reverts a previous commit  
   
@@ -19,7 +20,7 @@ Sungshin Women's University 2022-Fall Opensource Software Term Project😊
 ## 🌐Service Introduction
 A simple online chatting service using Node.js and Socket.io  
 (This project's main goal is CI/CD Pipeline Automation by using Docker, Jenkins and Kubernetes)
-  
+   
 
 ## 💻Developers
 Seo jiun🚀  
