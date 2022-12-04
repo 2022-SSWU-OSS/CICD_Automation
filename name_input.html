@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>input your name</title>
+    <link rel="stylesheet" href="name_input.css"/>
+</head>
+<body>
+    <div id="notice">채팅에서 사용할 이름을 입력하세요</div>
+    <div>
+    <input type="text" id="cInput">
+    <input type="button" id = "btn" value="확인" onclick="setParentText()">
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    function setParentText(){
+         opener.document.getElementById("name").value = document.getElementById("cInput").value
+         opener.document.getElementById("name").disabled = true;
+         window.close()
+    }
+</script>
