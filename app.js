@@ -12,6 +12,18 @@ app.get('/', function (req, res) {
     res.sendFile(__dirname + '/main.html');
 });
 
+app.get('/healthz', function(request, response){
+    var code = 200
+    console.log('GET /healthz ' + code)
+    response.status(code).send('OK')
+})
+
+app.get('/ready', function(request, response){
+    var code = 200
+    console.log('GET /ready ' + code)
+    response.status(code).send('OK')
+})
+
 app.get('/name_input', function (req, res) {
     console
   res.sendFile(__dirname + '/name_input.html');

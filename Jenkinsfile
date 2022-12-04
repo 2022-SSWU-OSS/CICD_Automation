@@ -12,9 +12,11 @@ node{
         }
     }
     stage('Push image'){
-        docker.withRegistry('https://registry.hub.docker.com', 'jiun17'){
-            app.push("${env.BUILD_NUMBER}")
-            app.push("latest")
+        if(env.BRANCH_NAME == 'main') {
+            docker.withRegistry('https://registry.hub.docker.com', 'jiun17'){
+                app.push("${env.BUILD_NUMBER}")
+                app.push("latest")
+            }
         }
     }
 }
