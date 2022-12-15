@@ -15,7 +15,7 @@ pipeline{
         stage('Build image'){
             steps{
                 script{
-                    app = docker.build("jiun17/pipeline_example")
+                    app = docker.build("jiun17/pipeline_example:${env.BUILD_ID}")
                 }
             }
         }
