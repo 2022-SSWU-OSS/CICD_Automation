@@ -50,3 +50,6 @@ body{
     box-shadow: 0px 8px 15px #D9D8FF;
     cursor: pointer;
   }
+  #image {
+    padding-top: 30px;
+  }
